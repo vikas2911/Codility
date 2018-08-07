@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryGap", "BinaryGap\BinaryGap.csproj", "{6E8D20C9-C300-448C-A6F3-F7A45FE72EA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterations", "Iterations", "{DAA8DC10-4435-4A46-9712-7E16AF174324}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{C1C76C81-206F-48A6-B866-55CE6F3A7173}"
+	ProjectSection(SolutionItems) = preProject
+		TaskDescription.txt = TaskDescription.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicRotation", "CyclicRotation\CyclicRotation.csproj", "{D8F40E44-8A1B-4765-937F-BFB426DA404F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrencesInArray", "OddOccurrencesInArray\OddOccurrencesInArray.csproj", "{C82212FF-617D-49EA-A72B-AF0F8C99C5DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E8D20C9-C300-448C-A6F3-F7A45FE72EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8D20C9-C300-448C-A6F3-F7A45FE72EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8D20C9-C300-448C-A6F3-F7A45FE72EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8D20C9-C300-448C-A6F3-F7A45FE72EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F40E44-8A1B-4765-937F-BFB426DA404F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F40E44-8A1B-4765-937F-BFB426DA404F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F40E44-8A1B-4765-937F-BFB426DA404F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F40E44-8A1B-4765-937F-BFB426DA404F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82212FF-617D-49EA-A72B-AF0F8C99C5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82212FF-617D-49EA-A72B-AF0F8C99C5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82212FF-617D-49EA-A72B-AF0F8C99C5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82212FF-617D-49EA-A72B-AF0F8C99C5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E8D20C9-C300-448C-A6F3-F7A45FE72EA9} = {DAA8DC10-4435-4A46-9712-7E16AF174324}
+		{D8F40E44-8A1B-4765-937F-BFB426DA404F} = {C1C76C81-206F-48A6-B866-55CE6F3A7173}
+		{C82212FF-617D-49EA-A72B-AF0F8C99C5DE} = {C1C76C81-206F-48A6-B866-55CE6F3A7173}
+	EndGlobalSection
+EndGlobal
