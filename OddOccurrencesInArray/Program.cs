@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace OddOccurrencesInArray
 {
+    /// <summary>
+    /// main function
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
